@@ -162,4 +162,4 @@ if (require.main === module) {
   runServer().catch(err => console.error(err));
 };
 
-module.exports = {runServer, app, closeServer};
+module.exports = {app, runServer, closeServer};
